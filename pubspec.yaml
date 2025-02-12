@@ -1,0 +1,38 @@
+name: test_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ Latest HTTP package for network requests
+  http: ^1.2.1
+
+  # ✅ Latest version for handling permissions
+  permission_handler: ^11.3.1
+
+  # ✅ Required for speech recognition
+  speech_to_text: ^7.0.0
+
+  # ✅ Latest stable version of geolocator for location fetching
+  geolocator: ^10.1.0
+
+  # ✅ Cupertino icons (for iOS-style icons)
+  cupertino_icons: ^1.0.8
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
